@@ -1,0 +1,147 @@
+
+body{
+    background-color: #F3F1FF;
+}
+h2 {
+    color: #2c50e4;
+}
+.main-logo{
+    width: 40px;
+}
+nav.navbar.navbar-expand-lg.bg-priimary.navbar-dark.custom-container {
+    background-color: #2c50e4;
+}
+.nav-link{
+    color: #fff;
+}
+.custom-container {
+    padding: 0px 6.5%;
+}
+.friends img {
+    width: 56px;
+}
+.friends {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+}
+.top-player, .blog {
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+main, .blog, .cart {
+    max-width: 75%;
+}
+
+.top-player h2 {
+    padding: 30px 0;
+    padding-left: 25px;
+}
+
+.friends p {
+    padding-left: 13px;
+}
+.blog{
+    margin: auto;
+}
+
+.blog img {
+    width: 135px;
+}
+.single-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog h2 {
+    padding: 64px 25px;
+    position: relative;
+}
+.blog p{
+    color: #7c7e82;
+}
+.blog p span{
+    color: #415bee;
+    font-weight: 700;
+}
+.blog h2:before {
+    position: absolute;
+    top: 37px;
+    left: 5%;
+    height: 2px;
+    width: 90%;
+    content: "";
+    background: #94949661;
+}
+
+
+
+
+
+
+.cart {
+    margin: auto;
+    background: #fff;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+.cart h2 {
+    padding: 25px 0 40px 25px;
+}
+.card {
+    box-shadow: 0 0 8px #ccc4c4;
+    border: none;
+    margin: 23px;
+}
+.card-main-img {
+    padding: 15px;
+}
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.rating img {
+    width: 15px;
+}
+.rating-number {
+    display: inline-block;
+    margin-left: 15px;
+}
+.durition img {
+    width: 20px;
+}
+
+.durition {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #ff4c62;
+    background: #ff4c6242;
+    padding: 2px 8px;
+    border-radius: 15px;
+}
+
+.durition p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: navajowhite;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 120px;
+    background: #e0e0e08f;
+    padding: 7px;
+    color: #100e0ead;
+}
