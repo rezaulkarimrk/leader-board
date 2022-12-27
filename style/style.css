@@ -103,12 +103,17 @@ main, .blog, .cart {
     display: flex;
     justify-content: space-between;
 }
+.rating {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 .rating img {
     width: 15px;
 }
 .rating-number {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .durition img {
     width: 20px;
@@ -131,10 +136,10 @@ main, .blog, .cart {
 
 .card-footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background: #fff;
-    border: navajowhite;
+    border: none;
+    justify-content: space-between;
 }
 
 
